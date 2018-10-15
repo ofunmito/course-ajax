@@ -34,7 +34,9 @@ body {
     text-align: center;
 }
 
+
 /*** Search Form ***/
+
 #search-form {
     display: flex;
     padding: 1em 0;
@@ -64,11 +66,14 @@ body {
 
 
 /*** Response Container ***/
+
 #response-container {
     margin-top: 2em;
 }
 
+
 /*** Image Styline ***/
+
 figure {
     margin: 0;
     margin-bottom: 2em;
@@ -92,7 +97,9 @@ figcaption {
     width: 100%;
 }
 
+
 /*** Article Styling ***/
+
 ul {
     list-style: none;
     padding: 0;
@@ -135,6 +142,7 @@ ul {
 
 
 /*** Error State Styling ***/
+
 .error-no-image {
     background: url(../images/icon-no-image.png) no-repeat 50% top;
     margin-bottom: 3em;
@@ -149,7 +157,9 @@ ul {
     text-align: center;
 }
 
+
 /*** Helpers ***/
+
 .visuallyhidden {
     border: 0;
     clip: rect(0 0 0 0);
@@ -159,5 +169,6 @@ ul {
     padding: 0;
     position: absolute;
     width: 1px;
-    white-space: nowrap; /* 1 */
+    white-space: nowrap;
+    /* 1 */
 }
